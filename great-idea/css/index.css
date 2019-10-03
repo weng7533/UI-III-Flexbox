@@ -72,17 +72,19 @@ h1, h2, h3, h4, h5 {
 	
 
 	width: 850px;
-	border: 6px solid red;
+	
 	margin: auto;
 	
 }
+
+
 
 
 .head{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 3%;
+	margin: 2% 0;
 
 }
 
@@ -100,6 +102,8 @@ nav a{
 	margin: 0 20px;
 	text-decoration: none;
 }
+
+
 
 .TopPart{
 	display: flex;
@@ -148,7 +152,7 @@ nav a{
 .MiPart1{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	margin: 2%;
 	padding: 2%;
 	
@@ -157,7 +161,7 @@ nav a{
 
 }
 
-.middle-img{
+.middle-img {
 	display: flex;
 	width: 100%;
 }
@@ -185,3 +189,87 @@ nav a{
 .Copyright{
 	text-align: center;
 }
+
+
+
+
+
+
+
+
+
+.service-Top img { 
+	width: 100%;
+	padding: 2% 0;
+  }  
+
+
+.service-Top{
+	padding: 0 0 3% 0;
+	
+	margin: auto;
+}
+
+.service-Top h1{
+	padding: 2% 0;
+}
+
+.service-mid {
+	display: flex;
+	flex-flow: row wrap;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 100%;
+	justify-content: space-between;
+	padding: 2% 0;
+
+}
+
+.service-mid-element{
+	background-color: rgb(197, 192, 192);
+	border: 1px solid black;
+	padding: 3%;
+	margin-top: 15px ;
+	margin-bottom: 10px;
+	width: 49%; 
+	
+}
+
+
+
+.service-mid-element button{
+	border: 1px solid black;
+	border-radius: 7px;
+	padding: 3% 10%;
+	margin: 5% 0;
+
+	
+}
+
+.service-B{
+	
+	display: flex;
+	
+	justify-content: space-between;
+	
+	padding: 3% 0;
+	
+	width: 100%;
+}
+
+
+.service-BL p{
+	padding: 5% 0;
+}
+
+.service-BL ul{
+	padding: 5% 0;
+	
+}
+
+.service-BL li{
+
+	margin: 20px;
+	
+}
+
